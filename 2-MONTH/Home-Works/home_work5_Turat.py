@@ -22,7 +22,7 @@ print(f"Total: {str(len(results_all))}")
 file_path = 'MOCK_DATA.txt'
 result_file_path = 'result2.txt'
 file_r = open(file_path, mode="r", encoding='Latin-1')
-result_file = open(result_file_path, mode="w", encoding='Latin-1')
+result_file = open(result_file_path, mode="w", encoding='Latin_1')
 my_text = file_r.read()
 
 searching = r"[\w+_-]@[\w+_-]+.[\w.]+"
